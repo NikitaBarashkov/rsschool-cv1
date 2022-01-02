@@ -43,16 +43,14 @@ a:active{
 .education{
     display: inline;
     position: absolute;
-    left: 615px; top: 20px; 
+    left: 520px; top: 20px; 
 }
 .code{
     display: inline;
     position: absolute;
-    left: 715px; top: 20px; 
+    left: 620px; top: 20px; 
 }
 .PhotoMe{
-   
-   /* position: relative;*/
     bottom: 500px;
     width: 1400px;
     height: 600px;
@@ -74,8 +72,47 @@ h2{
 }
 
 main{
+    position: relative;
+    bottom: 160px;
     width: 1400px;
-    height: 500px;
+    height: 2000px;
     background-color: #cd913d78;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Pushster', cursive;
+   
+
+}
+.main{
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px
+}
+#contacts{
+    width: 900px;
+    border-radius: 20px;
+    background: white;  
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+#aboutme{
+    position: relative;
+    left: 590px;
+    width: 700px;
+    border-radius: 20px;
+    background: white;  
+}
+li{
+    list-style-type: none;
+    margin: 0px 0px 2px 15px;
+}
+p{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+#knowladge{
+    width: 900px;
+    height: 135px;
+    border-radius: 20px;
+    background: white; 
 }
